@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Block and Inline-block</title>
+  </head>
+  <style>
+    .name,
+    .email {
+      display: block;
+      margin-top: 10px;
+    }
+    .text {
+      width: 200px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .first-name,
+    .last-name {
+      width: 100px;
+      height: 25px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+
+    .email2 {
+      width: 220px;
+      height: 25px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .sign-up {
+      background-color: rgb(39, 131, 229);
+      color: white;
+      border-radius: 5px;
+      border: none;
+      height: 40px;
+      width: 220px;
+      font-weight: bold;
+      display: block;
+    }
+  </style>
+  <body>
+    <!-- 8a -->
+    <input class="name" type="text" placeholder="Name" />
+    <input class="email" type="text" placeholder="Email" />
+    <!-- 8b -->
+    <p class="text">
+      Thank for chatting with our customer support. Would you like to take our
+      quick survery ?
+    </p>
+    <button>Yes</button>
+    <button>No</button>
+    <!-- 8d Sign up form -->
+    <input class="first-name" type="text" placeholder="First name" />
+    <input class="last-name" type="text" placeholder="First name" />
+    <input class="email2" type="text" placeholder="Email" />
+    <button class="sign-up">Sign Up</button>
+  </body>
+</html>
